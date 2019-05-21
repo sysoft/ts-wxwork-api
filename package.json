@@ -1,0 +1,23 @@
+{
+  "name": "ts-wxwork-api",
+  "version": "1.0.0",
+  "description": "企业微信API - typescript",
+  "main": "./lib/index.js",
+  "scripts": {
+    "build": "tsc",
+    "postinstall": "npm run build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/request-promise": "^4.1.42",
+    "moment": "^2.24.0",
+    "request-promise": "^4.2.4",
+    "typescript": "^3.3.3333",
+    "typescript-cli": "^0.1.0"
+  },
+  "devDependencies": {
+    "@types/moment": "^2.13.0",
+    "@types/node": "^11.11.1"
+  }
+}
