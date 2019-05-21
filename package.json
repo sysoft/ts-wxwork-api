@@ -2,7 +2,7 @@
   "name": "ts-wxwork-api",
   "version": "1.0.0",
   "description": "企业微信API - typescript",
-  "main": "./lib/index.js",
+  "main": "./dist/index.js",
   "scripts": {
     "build": "tsc",
     "postinstall": "npm run build"
